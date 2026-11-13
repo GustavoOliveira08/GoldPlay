@@ -4,56 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header>
-        <div>
-            <img src="./src/images/logo-goldplay.svg" alt="">
-
-            <nav aria-label="Navegação Principal">
-                <ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Gêneros</a></li>
-                    <li><a href="">Planos</a></li>
-                    <li><a href="">Catálogos</a></li>
-                </ul>
-            </nav>
-
-        </div>
-        
-        <div>
-            
-            <form>
-                <input type="text">
-                <button><img src="./src/images/lupaIcon.svg" alt=""></button>
-            </form>
-
-            <nav>
-            <a href="">Entrar</a>
-            </nav>
-
-        </div>
-    </header> -->
-
+    
     <header>
 
-        <div>
+        <div class="header-navegation">
 
-            <img src="./src/images/logo-goldplay.svg" alt="">
+            <img src="./src/assets/images/logo-goldplay.svg" alt="">
 
             <nav aria-label="Navegação Principal">
-                <ul>
+                <ul class="itens-navigation">
+                
                     <li><a href="">Início</a></li>
                     <li><a href="">Gêneros</a></li>
                     <li><a href="">Catálogos</a></li>
                     <li><a href="">Planos</a></li>
+                    
                 </ul>
             </nav>
 
-            
+
         </div>
 
         <!-- ---------------------------------------------------------------------------- -->
@@ -62,16 +37,93 @@
 
             <form >
                 <input type="text">
-                <button><img src="./src/images/lupaIcon.svg" alt=""></button>
+                <button><img src="./src/assets/images/lupaIcon.svg" alt=""></button>
             </form>
 
             <nav>
-                <a href="">Entrar</a>
+                <a href="" class="btnHeader">Entrar</a>
             </nav>
 
 
         </div>
 
     </header>
+
+    <main>
+
+        <h1> Todo o entrenimento em <span>único lugar</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi dolorem tenetur velit est nihil aliquam ad explicabo cum ipsam fugiat quo voluptate minima earum id perferendis aspernatur expedita dicta.
+        Sapiente, molestiae amet? Et aliquid corporis quae veniam eius sit commodi accusamus nulla nobis officiis alias, iure nam ut odit magni corrupti velit tenetur ea, facilis, ratione eaque. Dolor, eligendi?</p>
+
+        <nav>
+
+            <a href="" class="btn-primary">Começar agora</a>
+            <a href="" class="btn-outline">Conheça a plataforma</a>
+        </nav>
+    </main>
+    <section class="section-genre">
+        <div>
+            <h2>Gêneros <span>Sugeridos</span></h2>
+
+            <div class="conteiner-genre">
+                <div class="card-genre">
+                    <img src="./src/assets/images/terror.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+                <div class="card-genre">
+                    <img src="./src/assets/images/ficcao-cientifica.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+                <div class="card-genre">
+                    <img src="./src/assets/images/aventura.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+                <div class="card-genre">
+                    <img src="./src/assets/images/acao.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+                <div class="card-genre">
+                    <img src="./src/assets/images/animacao.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+                <div class="card-genre">
+                    <img src="./src/assets/images/anime.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+                <div class="card-genre">
+                    <img src="./src/assets/images/romance.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+                <div class="card-genre">
+                    <img src="./src/assets/images/documentario.svg" alt="Ilustração" loading="lazy">
+                    <div class="details-genre">
+                        <h3>Terror</h3>
+                        <p>Magia e Fantasia animada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
